@@ -19,4 +19,5 @@ jobs:
 
       - name: Run pipeline
         run: |
-          PYTHONPATH=. python pipeline/run_pipeline.py
+          cd pipeline
+    python run_pipeline.py
