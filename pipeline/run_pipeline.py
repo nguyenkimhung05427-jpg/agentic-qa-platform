@@ -1,4 +1,6 @@
-from agents.parser_agent import ParserAgent
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))from agents.parser_agent import ParserAgent
 from agents.test_generator import TestGeneratorAgent
 
 print("🚀 Agentic QA Pipeline Started")
